@@ -28,7 +28,7 @@ const Contact = () => {
               Get In <span className="text-gradient">Touch</span>
             </h1>
             <p className="text-xl text-gray-300">
-              Have questions or ready to start your project? Contact us today.
+              Let's discuss how we can elevate your digital presence and drive your business forward.
             </p>
           </div>
         </div>
@@ -43,9 +43,9 @@ const Contact = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div className="reveal-on-scroll">
-              <h2 className="text-2xl font-bold mb-6">Send Us a Message</h2>
+              <h2 className="text-2xl font-bold mb-6">Start the Conversation</h2>
               <p className="text-gray-300 mb-8">
-                Fill out the form below, and we'll get back to you as soon as possible.
+                Whether you're looking for a complete digital transformation, a specific technical solution, or simply want to explore possibilities, we're here to help. Fill out the form, and our team will get back to you within 24 hours.
               </p>
               
               <form onSubmit={handleSubmit}>
@@ -82,7 +82,7 @@ const Contact = () => {
                   <Input 
                     id="subject" 
                     className="bg-develup-gray border-none text-white" 
-                    placeholder="How can we help you?" 
+                    placeholder="Project Inquiry / Collaboration / Support" 
                     required 
                   />
                 </div>
@@ -94,7 +94,7 @@ const Contact = () => {
                   <Textarea 
                     id="message" 
                     className="bg-develup-gray border-none text-white min-h-[150px]" 
-                    placeholder="Tell us about your project or inquiry..." 
+                    placeholder="Tell us about your project goals, timeline, and any specific requirements..." 
                     required 
                   />
                 </div>
@@ -106,9 +106,9 @@ const Contact = () => {
             </div>
 
             <div className="reveal-on-scroll" style={{ transitionDelay: '200ms' }}>
-              <h2 className="text-2xl font-bold mb-6">Contact Information</h2>
+              <h2 className="text-2xl font-bold mb-6">Connect With Us</h2>
               <p className="text-gray-300 mb-8">
-                Reach out to us directly through any of these channels.
+                While we're based in Erode, Tamil Nadu, India, our team works globally. We're always available to discuss your project, answer questions, or provide support through multiple channels.
               </p>
 
               <div className="space-y-6">
@@ -122,6 +122,9 @@ const Contact = () => {
                       <a href="mailto:contact@develupers.com" className="text-gray-300 hover:text-develup-blue transition-colors">
                         contact@develupers.com
                       </a>
+                      <p className="text-gray-400 text-sm mt-1">
+                        For quotes, inquiries, and support
+                      </p>
                     </div>
                   </CardContent>
                 </Card>
@@ -136,6 +139,9 @@ const Contact = () => {
                       <a href="tel:+11234567890" className="text-gray-300 hover:text-develup-purple transition-colors">
                         +1 (123) 456-7890
                       </a>
+                      <p className="text-gray-400 text-sm mt-1">
+                        Monday-Friday, 9AM-6PM IST
+                      </p>
                     </div>
                   </CardContent>
                 </Card>
@@ -150,6 +156,9 @@ const Contact = () => {
                       <a href="https://www.develupers.com" className="text-gray-300 hover:text-develup-mint transition-colors">
                         www.develupers.com
                       </a>
+                      <p className="text-gray-400 text-sm mt-1">
+                        Explore our services and portfolio
+                      </p>
                     </div>
                   </CardContent>
                 </Card>
@@ -162,6 +171,9 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Headquarters</h3>
                       <p className="text-gray-300">
+                        Erode, Tamil Nadu, India
+                      </p>
+                      <p className="text-gray-400 text-sm mt-1">
                         Remote-first company with team members worldwide
                       </p>
                     </div>
@@ -179,43 +191,47 @@ const Contact = () => {
           <div className="text-center mb-16 reveal-on-scroll">
             <h2 className="text-3xl font-bold mb-6">Frequently Asked Questions</h2>
             <p className="text-gray-300 max-w-2xl mx-auto">
-              Find quick answers to common questions about our services and process.
+              Get quick answers to common questions about our services and collaborative process.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-develup-gray p-6 rounded-lg reveal-on-scroll" style={{ transitionDelay: '100ms' }}>
-              <h3 className="text-xl font-semibold mb-3">How long does a typical project take?</h3>
+              <h3 className="text-xl font-semibold mb-3">How do you handle projects across different time zones?</h3>
               <p className="text-gray-400">
-                Project timelines vary depending on scope and complexity. A simple website might take 4-6 weeks, 
-                while a complex application could take 3-6 months or more. We'll provide a detailed timeline 
-                during our initial consultation.
+                As a global remote-first company, we're experienced in working across time zones. We establish 
+                communication protocols and overlapping work hours to ensure seamless collaboration with clients 
+                worldwide, backed by project management tools that provide real-time updates and transparency.
               </p>
             </div>
 
             <div className="bg-develup-gray p-6 rounded-lg reveal-on-scroll" style={{ transitionDelay: '200ms' }}>
-              <h3 className="text-xl font-semibold mb-3">What are your payment terms?</h3>
+              <h3 className="text-xl font-semibold mb-3">What's your typical project workflow?</h3>
               <p className="text-gray-400">
-                We typically work on a milestone-based payment schedule. This includes an initial deposit, 
-                followed by payments at key project milestones, and a final payment upon project completion. 
-                We can discuss specific terms based on your project needs.
+                We follow an agile development approach with regular sprints and client checkpoints. 
+                After the initial discovery phase, we establish clear milestones with deliverables and 
+                feedback opportunities. This ensures you're always informed and involved in the development 
+                process from concept to completion.
               </p>
             </div>
 
             <div className="bg-develup-gray p-6 rounded-lg reveal-on-scroll" style={{ transitionDelay: '300ms' }}>
-              <h3 className="text-xl font-semibold mb-3">Do you provide ongoing support?</h3>
+              <h3 className="text-xl font-semibold mb-3">Do you provide ongoing maintenance?</h3>
               <p className="text-gray-400">
-                Yes, we offer various maintenance and support packages to ensure your digital products 
-                continue to perform optimally after launch. These can include updates, security patches, 
-                performance monitoring, and feature enhancements.
+                Yes, we offer comprehensive maintenance packages to ensure your digital solutions remain 
+                secure, performant, and up-to-date. Our support options include regular updates, security 
+                monitoring, performance optimization, and technical assistance based on your specific needs 
+                and budget.
               </p>
             </div>
 
             <div className="bg-develup-gray p-6 rounded-lg reveal-on-scroll" style={{ transitionDelay: '400ms' }}>
-              <h3 className="text-xl font-semibold mb-3">How do you handle confidentiality?</h3>
+              <h3 className="text-xl font-semibold mb-3">How do you ensure project security?</h3>
               <p className="text-gray-400">
-                We take confidentiality seriously and are happy to sign NDAs before discussing your project 
-                in detail. All client information and project details are kept strictly confidential.
+                Security is integrated into every phase of our development process. We implement industry 
+                best practices for secure coding, conduct regular vulnerability assessments, use encrypted 
+                communications, and follow strict data protection protocols. All client information and 
+                project details are kept confidential under NDA.
               </p>
             </div>
           </div>

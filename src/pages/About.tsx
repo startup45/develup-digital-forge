@@ -3,6 +3,8 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
+import ValueCard from '@/components/ValueCard';
+import { Shield, Zap, BarChart, Users } from 'lucide-react';
 
 const About = () => {
   return (
@@ -17,7 +19,7 @@ const About = () => {
               About <span className="text-gradient">Develupers</span>
             </h1>
             <p className="text-xl text-gray-300">
-              From Idea to Impact – We Develup.
+              Transforming Ideas into Digital Reality
             </p>
           </div>
         </div>
@@ -34,22 +36,21 @@ const About = () => {
             <div className="reveal-on-scroll">
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-gray-300 mb-6">
-                Founded in 2021, Develupers started with a simple mission: to help businesses 
-                leverage technology to achieve their goals. What began as a small team of 
-                passionate developers has grown into a comprehensive digital solutions provider 
-                with expertise across multiple domains.
+                Founded with a vision to bridge the gap between innovative ideas and cutting-edge technology, 
+                Develupers emerged as a team of passionate tech enthusiasts determined to revolutionize digital solutions.
+                Based in Erode, Tamil Nadu, we've grown from a small local team to a global remote-first company 
+                with talent spanning multiple continents.
               </p>
               <p className="text-gray-300 mb-6">
-                We believe that technology should be accessible, adaptable, and aligned with 
-                business objectives. Our remote-first approach allows us to bring together 
-                the best talent from around the world, creating diverse teams that bring 
-                fresh perspectives to every project.
+                Our journey began with a simple belief: technology should enable businesses to thrive, 
+                not create barriers. We've cultivated an environment where creativity meets technical excellence, 
+                allowing us to deliver solutions that don't just meet expectations—they exceed them.
               </p>
               <p className="text-gray-300">
-                Today, we serve clients ranging from startups to established enterprises, 
-                delivering solutions that drive growth, efficiency, and innovation. Our 
-                commitment to quality, transparency, and client satisfaction remains at 
-                the core of everything we do.
+                Today, we serve clients ranging from ambitious startups to established enterprises, providing 
+                end-to-end digital transformation services that drive growth, efficiency, and innovation. 
+                Our diverse portfolio spans web and mobile development, cybersecurity, data analytics, 
+                and strategic consulting—all delivered with our signature blend of technical precision and creative vision.
               </p>
             </div>
             <div className="order-first lg:order-last reveal-on-scroll" style={{ transitionDelay: '200ms' }}>
@@ -75,78 +76,36 @@ const About = () => {
       <section className="py-20 bg-develup-darker">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 reveal-on-scroll">
-            <h2 className="text-3xl font-bold mb-6">Our Values</h2>
+            <h2 className="text-3xl font-bold mb-6">Our Core Values</h2>
             <p className="text-gray-300 max-w-2xl mx-auto">
-              The principles that guide our work and shape our culture.
+              The principles that guide our work, shape our culture, and define our relationships with clients.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-develup-gray p-8 rounded-lg reveal-on-scroll" style={{ transitionDelay: '100ms' }}>
-              <div className="h-12 w-12 bg-develup-blue/10 rounded-lg flex items-center justify-center mb-6">
-                <span className="text-develup-blue text-2xl font-bold">1</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Innovation</h3>
-              <p className="text-gray-400">
-                We constantly explore new technologies and approaches to deliver cutting-edge solutions 
-                that keep our clients ahead of the curve.
-              </p>
-            </div>
-
-            <div className="bg-develup-gray p-8 rounded-lg reveal-on-scroll" style={{ transitionDelay: '200ms' }}>
-              <div className="h-12 w-12 bg-develup-purple/10 rounded-lg flex items-center justify-center mb-6">
-                <span className="text-develup-purple text-2xl font-bold">2</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Excellence</h3>
-              <p className="text-gray-400">
-                We are committed to delivering high-quality work that exceeds expectations and 
-                stands the test of time.
-              </p>
-            </div>
-
-            <div className="bg-develup-gray p-8 rounded-lg reveal-on-scroll" style={{ transitionDelay: '300ms' }}>
-              <div className="h-12 w-12 bg-develup-mint/10 rounded-lg flex items-center justify-center mb-6">
-                <span className="text-develup-mint text-2xl font-bold">3</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Collaboration</h3>
-              <p className="text-gray-400">
-                We believe in the power of teamwork, both within our organization and with our clients, 
-                to achieve outstanding results.
-              </p>
-            </div>
-
-            <div className="bg-develup-gray p-8 rounded-lg reveal-on-scroll" style={{ transitionDelay: '400ms' }}>
-              <div className="h-12 w-12 bg-develup-blue/10 rounded-lg flex items-center justify-center mb-6">
-                <span className="text-develup-blue text-2xl font-bold">4</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Transparency</h3>
-              <p className="text-gray-400">
-                We maintain open and honest communication throughout our processes, ensuring clients 
-                are always informed and involved.
-              </p>
-            </div>
-
-            <div className="bg-develup-gray p-8 rounded-lg reveal-on-scroll" style={{ transitionDelay: '500ms' }}>
-              <div className="h-12 w-12 bg-develup-purple/10 rounded-lg flex items-center justify-center mb-6">
-                <span className="text-develup-purple text-2xl font-bold">5</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Adaptability</h3>
-              <p className="text-gray-400">
-                We embrace change and remain flexible, allowing us to pivot quickly and respond 
-                effectively to evolving needs and challenges.
-              </p>
-            </div>
-
-            <div className="bg-develup-gray p-8 rounded-lg reveal-on-scroll" style={{ transitionDelay: '600ms' }}>
-              <div className="h-12 w-12 bg-develup-mint/10 rounded-lg flex items-center justify-center mb-6">
-                <span className="text-develup-mint text-2xl font-bold">6</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Integrity</h3>
-              <p className="text-gray-400">
-                We conduct our business with the highest ethical standards, building trust through 
-                consistency and reliability.
-              </p>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <ValueCard 
+              icon={Shield} 
+              title="Security-First Approach" 
+              description="We integrate advanced security practices into every project from day one, ensuring your digital assets are protected against evolving threats."
+            />
+            
+            <ValueCard 
+              icon={Zap} 
+              title="Rapid Delivery" 
+              description="Our agile methodology and optimized workflows enable us to deliver high-quality solutions with industry-leading turnaround times."
+            />
+            
+            <ValueCard 
+              icon={BarChart} 
+              title="Data-Driven Excellence" 
+              description="We leverage analytics and performance metrics to continuously improve our processes and deliver measurable results for our clients."
+            />
+            
+            <ValueCard 
+              icon={Users} 
+              title="Client Collaboration" 
+              description="We view our clients as partners, maintaining transparent communication and involving you in key decisions throughout the development journey."
+            />
           </div>
         </div>
       </section>
@@ -157,7 +116,7 @@ const About = () => {
           <div className="text-center mb-16 reveal-on-scroll">
             <h2 className="text-3xl font-bold mb-6">Our Process</h2>
             <p className="text-gray-300 max-w-2xl mx-auto">
-              A systematic approach to turning ideas into reality.
+              A systematic approach to turning your vision into digital reality.
             </p>
           </div>
 
@@ -168,7 +127,7 @@ const About = () => {
               </div>
               <h3 className="text-xl font-semibold mb-3">Discovery</h3>
               <p className="text-gray-400">
-                We start by understanding your business, goals, and requirements through in-depth consultations.
+                We dive deep into understanding your business objectives, market position, and specific requirements through collaborative strategy sessions.
               </p>
             </div>
 
@@ -176,9 +135,9 @@ const About = () => {
               <div className="absolute -top-4 -right-4 w-8 h-8 rounded-full bg-develup-purple flex items-center justify-center">
                 <span className="text-white font-bold">2</span>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Planning</h3>
+              <h3 className="text-xl font-semibold mb-3">Design & Planning</h3>
               <p className="text-gray-400">
-                We create a detailed roadmap, outlining scope, timeline, resources, and deliverables.
+                Our team crafts a comprehensive solution blueprint, outlining architecture, technology stack, and implementation roadmap tailored to your needs.
               </p>
             </div>
 
@@ -186,9 +145,9 @@ const About = () => {
               <div className="absolute -top-4 -right-4 w-8 h-8 rounded-full bg-develup-mint flex items-center justify-center">
                 <span className="text-develup-darker font-bold">3</span>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Execution</h3>
+              <h3 className="text-xl font-semibold mb-3">Development</h3>
               <p className="text-gray-400">
-                Our team develops, tests, and refines your solution using agile methodologies.
+                Using agile methodologies, we develop your solution with regular sprints, continuous integration, and rigorous quality assurance at every stage.
               </p>
             </div>
 
@@ -196,9 +155,9 @@ const About = () => {
               <div className="absolute -top-4 -right-4 w-8 h-8 rounded-full bg-develup-blue flex items-center justify-center">
                 <span className="text-white font-bold">4</span>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Launch & Support</h3>
+              <h3 className="text-xl font-semibold mb-3">Deployment & Support</h3>
               <p className="text-gray-400">
-                We deploy your solution and provide ongoing maintenance and enhancement services.
+                We ensure smooth deployment and provide comprehensive training, documentation, and ongoing maintenance to maximize your solution's long-term value.
               </p>
             </div>
           </div>
@@ -210,13 +169,13 @@ const About = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center reveal-on-scroll">
             <h2 className="text-3xl font-bold mb-6">
-              Ready to Work With Us?
+              Ready to Transform Your Digital Presence?
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Let's turn your ideas into impactful digital solutions.
+              Partner with Develupers to bring your vision to life with cutting-edge technology and expert guidance.
             </p>
             <Button className="bg-develup-blue hover:bg-develup-blue/80 text-white px-8 py-6 text-lg">
-              Start a Project
+              Start Your Project
             </Button>
           </div>
         </div>

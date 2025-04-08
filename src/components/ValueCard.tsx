@@ -10,7 +10,7 @@ interface ValueCardProps {
 
 const ValueCard: React.FC<ValueCardProps> = ({ title, description, icon: Icon }) => {
   return (
-    <div className="flex gap-4 p-6 rounded-lg glass-morphism">
+    <div className="flex gap-4 p-6 rounded-lg glass-morphism hover:bg-white/10 transition-colors duration-300">
       <div className="shrink-0">
         <div className="bg-develup-purple/10 p-3 rounded-lg">
           <Icon className="w-6 h-6 text-develup-purple" />
